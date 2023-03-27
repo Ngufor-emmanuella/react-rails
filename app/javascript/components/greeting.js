@@ -1,25 +1,16 @@
-import React from "react";
-import { useSelector } from "react-redux";
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { retrieveGreetings } from '../redux/messages/messages';
 
-const Message= ({prop}) => {
+const Greeting = () => {
+  const message = useSelector((state) => state.greeting);
+  const dispatch = useDispatch();
 
-   
-  if(prop != undefined && prop != null) {
-    return (
-      <div className="message">
-        <h2>Greeting</h2>
-        <p><span>Text:</span> {prop.content}</p>
-        <p><span>Created at:</span> {prop.created_at}</p>
-      </div>
-    );
-  } else {
-    return (
-      <div className="message">
-        <h2>Greeting to you </h2>
-        <p>No greeting to tell you</p>
-      </div>
-    );
-  }
-}
+  useEffect(() => {
+    dispatch(retrieveGreetings());
+  }, []);
 
-export default Message;
+  return <h1>{message.greeting}</h1>;
+};
+
+export default Greeting;

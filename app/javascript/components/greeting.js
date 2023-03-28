@@ -3,14 +3,14 @@ import { useSelector, useDispatch } from 'react-redux';
 import { retrieveGreetings } from '../redux/messages/messages';
 
 const Greeting = () => {
-  const message = useSelector((state) => state.greeting);
+  const message = useSelector((state) => state.greetings);
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(retrieveGreetings());
   }, []);
 
-  return <h1>{message.greeting}</h1>;
+  return <h1>{message.greetings}</h1>;
 };
 
 export default Greeting;

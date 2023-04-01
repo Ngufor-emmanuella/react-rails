@@ -2,9 +2,8 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 // Action Thunk
 export const retrieveGreetings = createAsyncThunk('get-Greetings', async () => {
-  const res = fetch('http://127.0.0.1:5000/api/v1/greeting');
-  const data = (await res).json();
-  return data;
+  const res = await (await fetch('http://127.0.0.1:5000/api/v1/greeting')).json();
+  return res;
 });
 
 // Reducers
@@ -20,4 +19,3 @@ const greetingSlice = createSlice({
 });
 
 export default greetingSlice.reducer;
-

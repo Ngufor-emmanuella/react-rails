@@ -1,12 +1,11 @@
 import { configureStore, applyMiddleware } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
-import greetings from './messages/messages';
+import greetingSlice from './messages/messages';
 
-const rootReducer = {
+const store = configureStore({
   reducer: {
-    greetings,
-  },
-};
+    greetings: greetingSlice
+  }
+}, applyMiddleware(thunk));
 
-const store = configureStore(rootReducer, applyMiddleware(thunk));
 export default store;

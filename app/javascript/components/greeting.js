@@ -6,11 +6,11 @@ const Greeting = () => {
   const message = useSelector((state) => state.greetings);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    dispatch(retrieveGreetings());
-  }, []);
+useEffect(() => {
+  dispatch(retrieveGreetings());
+}, []);
 
-  return <h1>{message.greetings}</h1>;
+return <h1>{ message.Text }</h1>;
 };
 
 export default Greeting;

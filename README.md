@@ -60,26 +60,21 @@ This is a simple React application that fetches data from an API endpoint and di
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - Fetch data from an API endpoint
 - Store the data in a store
 - Display the data in a component
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!--
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
--->
 
-> Describe how a new developer could make use of your project.
+## Getting Started
 
 To get a local copy up and running, follow these steps.
 
@@ -111,7 +106,7 @@ Install this project and it's dependencies:
 To run the project, execute the following command:
 
 ```sh
-  npm start
+  ./bin/dev
 ```
 
 <!--
@@ -139,13 +134,9 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+## 👥 Author<a name="authors"></a>
 
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Ngufor Emmanuella**
 
 - GitHub: [@Ngufor-emanuella](https://github.com/Ngufor-emanuella)
 - Twitter: [@Ngufor-emanuella](https://twitter.com/Ngufor-emanuella)
@@ -153,11 +144,9 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] A better UI
 - [ ] A compelete application
@@ -165,7 +154,6 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -179,8 +167,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project, please give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -189,8 +175,6 @@ If you like this project, please give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank Microverse for their continued support. They've provided us with the reading material that have helped us to create this application.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -198,8 +182,6 @@ I would like to thank Microverse for their continued support. They've provided u
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **Can I reuse this code?**
 

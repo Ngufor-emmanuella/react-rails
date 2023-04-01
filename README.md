@@ -1,31 +1,5 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <br/>
-
-  <h3><b>Hello Rails React API App</b></h3>
+  <h3><b>REACT-RAILS README</b></h3>
 
 </div>
 
@@ -33,119 +7,135 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Hello Rails React API App ](#-hello-rails-react-api-app-)
-  - [🛠 Built With ](#-built-with-)
-    - [Ruby on Rails ](#ruby-on-rails-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖React rails App <a name="about-project"></a>
+# 📖 RAILS-REACT <a name="about-project"></a>
 
-**React rails App** is a combined Rails and React API based web application that returns different kinds of greetings via an API endpoint that is interfaced with a React Front End application that consuming the API endpoints bundled together with WEBPACK.
+This is a simple React application that fetches data from an API endpoint and displays the data. It is developed using React and Redux (State management).
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Ruby on Rails <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>State Management</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Front End</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+    <li><a href="https://reactjs.org/">React</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>None</li>
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-- **API Endpoints**
-- **Database management with Postgres**
-- **ORM with ActiveRecord**
-- **React Front End**
-- **Bundled with WebPack**
+> Describe between 1-3 key features of the application.
+
+- Fetch data from an API endpoint
+- Store the data in a store
+- Display the data in a component
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
+<!--
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> A live demo link will be added soon.
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+-->
 
-## 💻 Getting Started <a name="getting-started"></a>
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-
- Ruby installed
-
- Postgresql installed
-
- gem install rails
-
- npm install
+ - NodeJS
+ - Node Package Manager (NPM)
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-  git clone https://github.com/Ngufor-emmanuella/react-rails/
+```sh
+  git clone https://github.com/Ngufor-emanuella/react-rails.git
+```
 
-  cd hello-rails-react
+### Install
 
-  ### Install
+Install this project and it's dependencies:
 
-  bundle install
-
+```sh
+  cd hello
+  npm install
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
+```sh
+  npm start
+```
 
-  rails server
-
-  OR ./bin/dev
-
+<!--
 ### Run tests
 
 To run tests, run the following command:
 
-  rspec
+```sh
+  gem install rspec
+  rspec spec
+```
 
+<!--
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,13 +143,13 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
 
-**Odette Gleen**
+👤 **Author1**
 
-- GitHub: [@Ngufor-emmanuella](https://github.com/Ngufor-emmanuella)
-- Twitter: [@Ngufor-emmanuella](https://twitter.com/twitterhandle)
-- LinkedIn: [@Ngufor-emmanuella](https://www.linkedin.com/in/Ngufor-emmanuella)
-
+- GitHub: [@Ngufor-emanuella](https://github.com/Ngufor-emanuella)
+- Twitter: [@Ngufor-emanuella](https://twitter.com/Ngufor-emanuella)
+- LinkedIn: [Ngufor-emanuella](https://linkedin.com/in/Ngufor-emanuella)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,11 +157,11 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
->
+> Describe 1 - 3 features you will add to the project.
 
-- [ ] **API Documentation with Swagger**
-- [ ] **Build a separate Rails BackEnd and React Front End**
-
+- [ ] A better UI
+- [ ] A compelete application
+- [ ] More functionality
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,7 +171,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Ngufor-emmanuella/react-rails/issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,7 +179,9 @@ Feel free to check the [issues page](https://github.com/Ngufor-emmanuella/react-
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please add a ⭐️
+> Write a message to encourage readers to support your project
+
+If you like this project, please give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,15 +189,33 @@ If you like this project, please add a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Credit to Microverse for the project specification
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank Microverse for their continued support. They've provided us with the reading material that have helped us to create this application.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **Can I reuse this code?**
+
+  - Yes sure, feel free.
+
+- **Are contributions welcome?**
+
+  - Yes please. Contact me at `emmanuellangufor@gmail.com` and I will be happy to add you as a contributor.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./License) licensed.
+This project is [MIT](./LICENSE) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
